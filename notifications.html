@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>NEXVO • Notifications</title>
+
+
+    <!-- =====================================
+         GLOBAL CSS
+    ====================================== -->
+
+    <link
+        rel="stylesheet"
+        href="../css/global.css"
+    >
+
+
+    <!-- =====================================
+         UNIVERSAL N BUTTON
+    ====================================== -->
+
+    <link
+        rel="stylesheet"
+        href="../css/nexvo-plus.css"
+    >
+
+
+    <!-- =====================================
+         NOTIFICATIONS CSS
+    ====================================== -->
+
+    <link
+        rel="stylesheet"
+        href="../css/notifications.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================
+         NOTIFICATIONS PAGE
+    ====================================== -->
+
+    <main class="notifications-page">
+
+
+        <!-- =================================
+             HEADER
+        ================================== -->
+
+        <header class="notifications-header">
+
+            <button
+                id="backButton"
+                class="back-button"
+                type="button"
+                aria-label="Go back"
+            >
+                ‹
+            </button>
+
+
+            <div class="header-title">
+
+                <h1>
+                    Notifications
+                </h1>
+
+                <p>
+                    Stay up to date
+                </p>
+
+            </div>
+
+
+            <button
+                id="markAllRead"
+                class="mark-read-button"
+                type="button"
+            >
+                Read all
+            </button>
+
+        </header>
+
+
+
+        <!-- =================================
+             FILTERS
+        ================================== -->
+
+        <div class="notification-filters">
+
+            <button
+                class="notification-filter active"
+                data-filter="all"
+                type="button"
+            >
+                All
+            </button>
+
+
+            <button
+                class="notification-filter"
+                data-filter="unread"
+                type="button"
+            >
+                Unread
+            </button>
+
+        </div>
+
+
+
+        <!-- =================================
+             NOTIFICATIONS
+        ================================== -->
+
+        <section
+            id="notificationsList"
+            class="notifications-list"
+        ></section>
+
+
+    </main>
+
+
+
+    <!-- =====================================
+         SCRIPTS
+    ====================================== -->
+
+    <!-- DATA -->
+
+    <script
+        src="../data/nexvo-data.js"
+    ></script>
+
+
+    <!-- UNIVERSAL N BUTTON -->
+
+    <script
+        src="../js/nexvo-plus.js"
+    ></script>
+
+
+    <!-- NOTIFICATIONS -->
+
+    <script
+        src="../js/notifications.js"
+    ></script>
+
+
+</body>
+
+</html>
